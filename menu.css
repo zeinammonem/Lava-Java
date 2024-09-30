@@ -1,0 +1,97 @@
+/*HEADER*/
+h1 {
+    z-index: 10;
+    color: #E2DCC8;
+    /* color: #F1F1F1; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+h2 {
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+
+}
+
+p {
+    color: #E2DCC8;
+    z-index: 10;
+}
+
+
+
+/*BODY*/
+body {
+    background: #100F0F !important;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+}
+
+
+.leftside,
+.rightside {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg1,
+.bg2 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+
+}
+
+.bg1 img,
+.bg2 img {
+    width: 100%;
+    height: 100%;
+}
+
+a:link{
+    color: #E2DCC8;
+}
+a:visited{
+    color: #E2DCC8;
+}
+
+.overlay {
+    z-index: 3;
+    margin: 0px;
+    background: #00000085;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .back1{
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    
+  }
+  .back1 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .back1-body1{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Dessert Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anonymous+Pro&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.rtlcss.com/bootstrap/v4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-40ix5a3dj6/qaC7tfz0Yr+p9fqWLzzAXiwxVLt9dw7UjQzGYw6rWRhFAnRapuQyK" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="dessert.css">
+   <link rel="stylesheet" href="footer.css">
+  </head>
+  <body>
+
+    <!-- SPLIT PAGE INTO 2 -->
+    <div class="row no-gutters">
+        <!-- PART 1 -->
+        <div class="col no-gutters">
+        <div class="leftside d-flex justify-content-center align-items-center">
+            <div class="back1-body1">
+                <div class="back1"><img src="desserts/half-back5.jpg"></div>
+                <div class="back1 overlay justify-content-center align-items-center text-align-center">
+                  <p class="hover-underline-animation"><a href="menu.html">Go back to our Menu Page</a></p>
+                  
+                </div>
+                <h1>Check Out<br>Our Menu<br></h1>
+                  
+                
+              </div> 
+        </div>
+        </div>
+
+         <!-- PART 2 -->
+        <div class="col no-gutters">
+            <div class="rightside " id="right">
+                
+                <!-- dessert -->
+                <h1>dessert</h1>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/chocolate cake.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">choclate cake</h5>
+                         
+                          <p class="card-text"><small class="text-muted">55 EGP</small>
+                          
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number1" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+                          
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/cheesecake copy.png" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">cheese cake</h5>
+                         
+                          <p class="card-text"><small class="text-muted">60 EGP</small>
+                          
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number2" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/pan cake copy.png" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">Pan cake</h5>
+                        
+                          <p class="card-text"><small class="text-muted">60 EGP</small>
+                          
+                          
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number3" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/tart cake copy.png" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">Tart cake</h5>
+                         
+                          <p class="card-text"><small class="text-muted">60 EGP</small>
+                          
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number4" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  
+
+                  <hr style="background-color:#E2DCC8 ;">
+
+                  <!-- Ice cream -->
+                  <h1>Ice cream</h1>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/chocolate icecream.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">chocolate icecream</h5>
+                        
+                          <p class="card-text"><small class="text-muted">50 EGP</small>
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number5" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/vanilla-ice-cream.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">Vanillia icecream</h5>
+                        
+                          <p class="card-text"><small class="text-muted">50 EGP</small>
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number6" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="desserts/ice cream strwaberry.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-style: italic;">Strawberry icecream</h5>
+                          
+                          <p class="card-text"><small class="text-muted">50 EGP</small>
+                            <div class="container">
+                              <input type="button" onclick="decrementValue()" value="-" />
+                              <input type="text" name="quantity" value="0" maxlength="2" max="10" size="1" id="number" />
+                              <input type="button" onclick="incrementValue()" value="+" />
+                              </div>
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              <hr style="background-color:#E2DCC8 ;">
+
+
+<!-- FOOTER -->
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Contact Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">LavaJava@gmail.com</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>About Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Learn more our team!</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Give us Feedback</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Write your own feedback!</a></li>
+            
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <div class="col-md-3">
+            <h4>Follow Us</h4>
+            <ul class="social-network social-circle">
+             <li><a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+             <li><a href="https://twitter.com/" class="icoLinkedin" title="Linkedin"><i class="fab fa-twitter"></i></a></li>
+             <li><a href="https://www.instagram.com/" class="icoInstagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>				
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2022 - Lava Java.  All rights reserved.</p>
+        </div>
+    </div>
+
+
+  </div>
+  </div>
+</footer>
+            </div>
+        </div>
+    </div>
+    
+     
+<script >
+  function incrementValue()
+  {
+      var value = parseInt(document.getElementById('number').value, 10);
+      value = isNaN(value) ? 0 : value;
+      if(value<10){
+          value++;
+              document.getElementById('number').value = value;
+      }
+  }
+  function decrementValue()
+  {
+      var value = parseInt(document.getElementById('number').value, 10);
+      value = isNaN(value) ? 0 : value;
+      if(value>0){
+          value--;
+              document.getElementById('number').value = value;
+      }
+  
+  }
+  </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+      
+             
+              
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

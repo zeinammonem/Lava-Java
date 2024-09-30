@@ -1,0 +1,142 @@
+/*HEADER*/
+h1{
+    z-index: 10;
+    color: #F1F1F1;
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    font-weight: bold;
+  }
+
+h2{
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+
+  }
+ p{
+    color:#E2DCC8;
+    z-index: 10;
+ } 
+
+
+
+/*BODY*/
+body {
+    background: #100F0F    !important;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+  }
+/*for scrolling effect*/
+  @media (min-width: 768px){
+    #right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        overflow-y: scroll;
+        width: 100%;
+      }
+    }
+
+ .leftside, .rightside{
+    width: 100%;
+    height: 100vh;
+ }
+
+ /*LEFT SIDE*/
+ .leftside{
+    background-color: #060606;
+ }
+
+ .back1-body1{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+  .back1{
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    
+  }
+  .back1 img{
+    width: 100%;
+    height: 100%;
+  }
+  .overlay {
+    z-index: 3;
+    margin: 0px;
+    background: #00000085;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #E2DCC8;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e2dcc8e3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  a{
+    color:#E2DCC8 ;
+    text-decoration: dotted;
+  }
+
+
+/*RIGHT SIDE*/
+ .rightside{
+    background: #100F0F;
+    display: block;
+    text-align: left;
+    padding: 30px;
+ }
+
+ .card{
+    background: #0f3d3e97;
+    color: #E2DCC8;
+
+ }
+
+ .card img{
+    width: 150 px;
+    height: 150 px;
+ }
+
+ a:link{
+  color:#E2DCC8 ;
+  text-decoration: dotted;
+}
+a:visited{
+  color:#E2DCC8 ;
+ 
+}

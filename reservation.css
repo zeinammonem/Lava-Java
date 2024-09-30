@@ -1,0 +1,153 @@
+/*HEADER*/
+h1 {
+    z-index: 10;
+    color: #E2DCC8;
+    /* color: #F1F1F1; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+h2 {
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-left: 215px;
+}
+
+h3 {
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+p {
+    color: #E2DCC8;
+    z-index: 10;
+}
+
+
+
+/*BODY*/
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    text-align: left;
+    /* padding-top: 40px; */
+    padding-bottom: 40px;
+    background: linear-gradient(59deg, #100F0F, #0F3D3E)
+}
+
+
+
+.leftside,
+.rightside {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg1 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+
+}
+
+.bg1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.rightside {
+    padding-left: 100px;
+}
+
+.logo {
+    display: block;
+    margin-left: 130px;
+}
+
+.form {
+    align-content: center;
+}
+
+.label {
+    text-align: left;
+    margin-right: 250px;
+}
+
+.input {
+    width: 275px;
+    height: 50px;
+    margin-right: 23px;
+}
+
+.form2 {
+    align-content: center;
+
+}
+
+.label2 {
+    text-align: left;
+    margin-right: 262px;
+}
+
+.input2 {
+    width: 275px;
+    height: 50px;
+    margin-right: 23px;
+}
+
+
+.btn {
+    background-color: #E2DCC8;
+    border-color: #E2DCC8;
+    color: black;
+    width: 300px;
+    height: 50px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.overlay {
+    z-index: 3;
+    margin: 0px;
+    background: #00000085;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .back1{
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+    
+  }
+  .back1 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .back1-body1{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

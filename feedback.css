@@ -1,0 +1,158 @@
+body{
+    color: #E2DCC8;
+}
+
+/*HEADER*/
+h1 {
+    z-index: 10;
+    color: #E2DCC8;
+    /* color: #F1F1F1; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+h2 {
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-left: 215px;
+}
+
+h3 {
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+h4 {
+    z-index: 10;
+    color: #E2DCC8;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: left;
+}
+
+p {
+    color: #E2DCC8;
+    z-index: 10;
+}
+
+
+
+/*BODY*/
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    text-align: left;
+    /* padding-top: 40px; */
+    padding-bottom: 40px;
+    background: linear-gradient(59deg, #100F0F, #0F3D3E)
+}
+
+
+
+.leftside,
+.rightside {
+    width: 100%;
+    height: 100vh;
+}
+
+.bg1 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    align-items: center;
+
+}
+
+.bg1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.rightside {
+    padding-left: 100px;
+}
+
+.logo {
+    display: block;
+    margin-left: 130px;
+}
+
+
+.checked {
+    color: orange;
+}
+
+.form {
+    align-content: center;
+}
+
+.form2 {
+    align-content: center;
+
+}
+
+
+.input2 {
+    width: 275px;
+    height: 50px;
+    margin-right: 23px;
+}
+
+
+.btn {
+    background-color: #E2DCC8;
+    border-color: #E2DCC8;
+    color: black;
+    width: 300px;
+    height: 50px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #E2DCC8;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e2dcc8e3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  a:link{
+    color:#E2DCC8 ;
+    text-decoration: dotted;
+  }
+  a:visited{
+    color:#E2DCC8 ;
+   
+  }
+
+
+  

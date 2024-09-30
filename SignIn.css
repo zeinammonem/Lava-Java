@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+
+}
+
+body {
+  display: block;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(59deg, #100F0F, #0F3D3E);
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.btn {
+  background-color: #E2DCC8;
+  border-color: #E2DCC8;
+  color: black
+}
+
+

@@ -1,0 +1,29 @@
+.container {
+  max-width: 960px;
+}
+
+body {
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+  color: #E2DCC8;
+}
+
+body {
+  display: block;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(59deg, #100F0F, #0F3D3E);
+}
+.btn{
+  background-color: #E2DCC8;
+  border-color: #E2DCC8;
+  color: black
+}
+
+
+body {
+  
+  font-family: 'Poppins', sans-serif;
+
+}
